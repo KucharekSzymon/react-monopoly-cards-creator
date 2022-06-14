@@ -1,13 +1,58 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.header{
+  top: 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Name{
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+.flex{
+  display: flex;
+}
+.form select {
+  margin-bottom: 10px;
+}
+.form * {
+  padding: 3px;
+  margin: 1px;
+}
+.railwayCard {
+  color: black;
+  border: 1px solid;
+  border-radius: 50px;
+  background-color: lightgray;
+  transition: .4s;
+  margin-top: 50px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subInput input{
+width: 40px;
+}
+
+.subInput2 input {
+  width: 60px;
+}
+.prison-card{
+  background-image: url("https://media.istockphoto.com/photos/young-afro-woman-looking-serious-and-desperate-behind-bars-which-may-picture-id1365327999?b=1&k=20&m=1365327999&s=170667a&w=0&h=n82iVsUS7RT1nr-Ds3cYRW5hIA--HTuVD3hXeQehbdY=");
+  background-size: cover;
 }
